@@ -49,6 +49,6 @@ def clearanceSale(d, updater):
   d5 = {"SB Dunk": d["SB Dunk"] /updater }
   d.update( d5)
 
-  return (shoeInv)
+  return (d)
 
 print(clearanceSale(shoeInv,5)) #answer = 4
