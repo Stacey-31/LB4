@@ -1,9 +1,9 @@
-def triangle_area(base, height):
-  area =(0.5)*(base*height)
-  return area
+#def triangle_area(base, height):
+  #area =(0.5)*(base*height)
+  #return area
 
-print(triangle_area(3,4))#would return 6 and print to console
-print(triangle_area(8,11)) #would return 44 and print to console
+#print(triangle_area(3,4))#would return 6 and print to console
+#print(triangle_area(8,11)) #would return 44 and print to console
 
 
 #Start of LAB
@@ -54,25 +54,37 @@ print(triangle_area(8,11)) #would return 44 and print to console
 #print(clearanceSale(shoeInv,5)) #answer = 4
 
 #STepVI
-nba_player = {"Curry" : 30, "Lebron": 23, "Duran": 7, "Oubre": 12, "Harden": 13}
+nba_player = {1: {"name" : "Bazemore","jerseyNum": 26},                                  2: {"name" : "Bell"    , "jerseyNum": 30,
+              4:  {"name" : "Green"  , "jerseyNum": 23, 
+              5:  {"name" : "Lee"    , "jerseyNum": 1, 
+              6:  {"name" :"Looney"  , "jerseyNum": 5}}
 
-def largestJerseyNumber(nba_player) :  
-    largestjerseyNum = 0
+def largestJerseyNumber(nba_player ):  
+    largestjerseyNum =0
 
-    for x in range(5):
-    #if (nba_player["Curry"]) > (nba_player["Lebron"] ):
-    print("x is", x)
+    for x in range(1..7):
+    #if (nba_player["Bazemore"]) > (nba_player["Bell"] ):
+      if (nba_player[x]['jerseyNum'] > nba_player[x+1]["jerseyNum"] }:
+        largestjerseyNum = nba_player[x]["jerseyNum"]
+        else:
+          largestjerseyNum = nba_player[x+1]["jerseyNum"]
+      print(nba_player[x]["jerseyNum"])
 
-    print( nba_player["Curry"])
-    if (nba_player["Curry"]) > (nba_player["Lebron"] ):
-        largestjerseyNum = nba_player["Curry"]
+      print ( largestjerseyNum)
 
-    if (nba_player["Curry"]) > (nba_player["Lebron"] ):
-        largestjerseyNum = nba_player["Curry"]
-      else:
-            largestjerseyNum = nba_player["Duran"]
+    #print( nba_player["Bazemore"])
+    #if (nba_player["Bazemore"]) > (nba_player["Bell"] ):
+        #largestjerseyNum = nba_player["Bazemore"]
 
-    print (largestjerseyNum)
+    #if (nba_player["Baxemore"]) > (nba_player["Curry"] ):
+        #largestjerseyNum = nba_player["Bazemore"]
+    #else:
+            #largestjerseyNum = nba_player["Curry"]
+
+  people = {1:{"name": "John", "age": "27", "sex": "Male"}}
+            #2: {"name": "John", "age": "27", "sex": "Male"}} 
+
+    #print (largestjerseyNum)
   #read in 1sr jersey number, 
 
 
