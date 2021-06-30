@@ -54,23 +54,28 @@
 #print(clearanceSale(shoeInv,5)) #answer = 4
 
 #STepVI
-nba_player = {1: {"name" : "Bazemore","jerseyNum": 26},                                  2: {"name" : "Bell"    , "jerseyNum": 30,
-              4:  {"name" : "Green"  , "jerseyNum": 23, 
-              5:  {"name" : "Lee"    , "jerseyNum": 1, 
-              6:  {"name" :"Looney"  , "jerseyNum": 5}}
+jerseyNumbers = {1: {"name" : "Bazemore","jerseyNum": 26},
+                 2:{"name" : "Bell"    ,"jerseyNum": 7,
+                 3: {"name" : "curry"   , "jerseyNum":30,
+                 4: {"name": "Green"    , "jerseyNum": 23,
+                 5: {"name" : "Lee"    , "jerseyNum": 1, 
+                 6: {"name" :"Looney"  , "jerseyNum": 5}}
 
 def largestJerseyNumber(nba_player ):  
     largestjerseyNum =0
 
-    for x in range(1..7):
+    for x in range(1..6):
     #if (nba_player["Bazemore"]) > (nba_player["Bell"] ):
-      if (nba_player[x]['jerseyNum'] > nba_player[x+1]["jerseyNum"] }:
+      #if (nba_player[x]['jerseyNum'] > nba_player[x+1]["jerseyNum"] }:
+      if (nba_player[x]["jerseyNum"] > largestjerseyNum)
         largestjerseyNum = nba_player[x]["jerseyNum"]
+        print(nba_player[x]["jerseyNum"])
         else:
           largestjerseyNum = nba_player[x+1]["jerseyNum"]
       print(nba_player[x]["jerseyNum"])
 
       print ( largestjerseyNum)
+      largestJerseyNumber(jerseyNumbers)
 
     #print( nba_player["Bazemore"])
     #if (nba_player["Bazemore"]) > (nba_player["Bell"] ):
